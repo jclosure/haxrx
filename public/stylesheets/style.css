@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+#dragTarget {
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+    border: 1px solid #666666;
+    color: #ffffff;
+    padding: 10px;*
+    position: absolute;
+    cursor: move;
+    /*top: 120px;*/
+}
